@@ -23,8 +23,8 @@ n'th fibonacci number, recursively
 ```scheme
 (define fib (lambda (x)
 	      (if (or (= x 0) (= x 1))
-		x
-	        (+ (fib (- x 1)) (fib (- x 2))))))
+           x
+           (+ (fib (- x 1)) (fib (- x 2))))))
 
 (show (fib 9))
 34
